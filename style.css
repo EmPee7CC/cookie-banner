@@ -61,14 +61,10 @@ body {
   bottom: 0;
   left: 50%;
   transform: translate(-50%);
-  /* right: 2em; */
-  /* transform: translateY(100%); */
 }
 
 .show {
   visibility: visible;
-  /* bottom: 2em;
-  right: 2em; */
   bottom: 50%;
   left: 50%;
   transform: translate(-50%, 50%);
