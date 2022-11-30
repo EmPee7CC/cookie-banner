@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f8ff;
+}
+
+#cookiePopup {
+  background-color: #fff;
+  position: absolute;
+  font-size: 14px;
+  width: 70vw;
+  max-width: 42.85em;
+  box-shadow: 0 0 2em rgba(5, 0, 31, 0.15);
+  font-family: 'Poppins', sans-serif;
+  text-align: justify;
+  line-height: 1.8em;
+  padding: 2em 1.4em;
+  border-radius: 6px;
+  transition: all 0.1s ease-in;
+}
+
+#cookiePopup img {
+  display: block;
+  width: 3.75em;
+  transform: translateZ(0);
+  color: rgb(109, 80, 57);
+  position: relative;
+  margin: auto;
+}
+
+#cookiePopup p {
+  text-align: center;
+  margin: 1.4em 0;
+}
+
+#cookiePopup button {
+  background-color: #6859fe;
+  border: none;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 0.75em 1.5em;
+  display: block;
+  position: relative;
+  margin: auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#cookiePopup a {
+  color: #6859fe;
+}
+
+.hide {
+  visibility: hidden;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  /* right: 2em; */
+  /* transform: translateY(100%); */
+}
+
+.show {
+  visibility: visible;
+  /* bottom: 2em;
+  right: 2em; */
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
